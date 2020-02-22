@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top_bar{
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+}
+header{
+    height: 100%;
+    width: 100%;
+}
+.logo_container{
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+.logo_container h1{
+    font-family: "Inconsolata",sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+header nav{
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+    margin-top: 60px;
+    padding-left: 120px;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: 14px;
+    font-family: "Playfair Display",sans-serif;
+}
+.first_post{
+    width: 90%;
+    min-height: 2000px;
+    margin: 0 auto;
+}
+.first_post_image{
+    width: 100%;
+    margin: 0 auto;
+}
+.first_post_image img{
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+}
+.first_post_content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+.first_post_content h4{
+    font-family: "Ubuntu Light",sans-serif;
+}
+.first_post_content h2{
+    font-family: "Playfair Display",sans-serif;
+    margin-top: 26px;
+    margin-bottom: 36px;
+    font-weight: lighter;
+}
+.first_post_content p{
+    font-family: "Playfair Display",sans-serif;
+    margin-bottom: 50px;
+}
+.row{
+    width: 100%;
+    min-height: 600px;
+    margin-top: 120px;
+    display: flex;
+}
+.column{
+    width: 47%;
+    margin-right: 90px;
+}
+.column:last-child{
+    margin-right: 0px;
+}
+.column .image_con img{
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+.column .ubuntu_text{
+    font-family: "Ubuntu",sans-serif;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.column p{
+    font-family: "Playfair Display",sans-serif;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.column h2{
+    font-family: ;font-family: "Playfair Display",sans-serif;
+    /* margin-bottom: 30px; */
+    font-size: 30px;
+}
+.comment_box{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(131, 131, 131);
+    text-align: center;
+    margin-top: 90px;
+}
+.comment_box h2{
+    font-family: ;font-family: "Playfair Display",sans-serif;
+    margin-bottom: 80px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.comment_box input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.sign_up_area{
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+}
+.sign_up_area .btn{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+.sign_up_area img{
+    float: right;
+}
+.footer_post_content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+.btn_con_load {
+    width: 30%;
+    margin: 0 auto;
+    min-height: 80px;
+    margin-top: 50px;
+}
+.load{
+    text-align: center;
+}
+.btn_con_load input[type="button"]{
+    padding: 20px 30px;
+    font-family: ;font-family: "Playfair Display",sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    border: none;
+    border: 1px solid black;
+    background: transparent;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    margin-top: 50px ;
+}
+footer .left{
+    float: left;
+    width: 40%;
+    margin-top: 30px;
+}
+footer .right{
+    float: right;
+    margin-top: 30px;
+}
+.right ul{
+    list-style: none;
+    float: right;
+}
+.right ul li{
+    float: left;
+}
+.right ul li a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
